@@ -9,9 +9,9 @@ class Hvs extends Model
 {
     use HasFactory;
 
-    protected string $table = 'hvses';
+    protected $table = 'hvses';
 
-    protected array $fillable = [
+    protected $fillable = [
         'value'
     ];
 }

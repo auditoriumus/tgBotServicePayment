@@ -31,10 +31,11 @@ return [
     |                       Acme\Project\Commands\BotFather\ByeCommand::class,
     |             ]
     */
+
     'bots'                         => [
         'mybot' => [
             'username'            => 'PayUtilServBot',
-            'token'               => env('TELEGRAM_BOT_TOKEN', '1926141755:AAGpGThgfLP8R72ZHH-Z-kXtRcQHj_9GP2s'),
+            'token'               => env('TELEGRAM_BOT_TOKEN', ''),
             'certificate_path'    => env('TELEGRAM_CERTIFICATE_PATH', 'YOUR-CERTIFICATE-PATH'),
             'webhook_url'         => env('TELEGRAM_WEBHOOK_URL', 'YOUR-BOT-WEBHOOK-URL'),
             'commands'            => [

@@ -9,9 +9,9 @@ class Energy extends Model
 {
     use HasFactory;
 
-    protected string $table = 'energies';
+    protected $table = 'energies';
 
-    protected array $fillable = [
+    protected $fillable = [
         'value'
     ];
 }

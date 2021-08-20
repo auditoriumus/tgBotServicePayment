@@ -5,7 +5,6 @@ namespace App\Http\Controllers;
 use App\Models\Energy;
 use App\Models\Gvs;
 use App\Models\Hvs;
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Cache;
 
 class SetValue extends Controller

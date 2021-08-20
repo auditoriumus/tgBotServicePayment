@@ -9,9 +9,9 @@ class Gvs extends Model
 {
     use HasFactory;
 
-    protected string $table = 'gvses';
+    protected $table = 'gvses';
 
-    protected array $fillable = [
+    protected $fillable = [
         'value'
     ];
 }
